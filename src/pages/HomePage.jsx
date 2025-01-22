@@ -5,7 +5,6 @@ import NewsEvent from '../components/NewsEvent';
 import PopularProducts from '../components/PopularProducts';
 import SteadySeller from '../components/SteadySeller';
 import RealReview from '../components/RealReview';
-import ReviewCard from '../components/ReviewCard';
 
 const HomePage = () => {
   return (

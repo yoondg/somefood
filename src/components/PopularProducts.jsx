@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Title from './Title';
 import ProductCard from './ProductCard';
 import products from '../data/products.json';
