@@ -1,0 +1,98 @@
+.footer {
+  padding: 20px 0;
+  position: relative;
+  font-size: .8em;
+}
+
+.footer-inner {
+  display: flex;
+}
+
+.footer-left {
+  flex: 1;
+}
+
+.footer-left h1,
+h3 {
+  font-family: 'Gmarket Sans';
+  font-weight: 500;
+}
+
+.footer-left h1 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.footer-left h2 {
+  font-size: 16px;
+}
+
+.call {
+  margin-bottom: 50px;
+}
+
+.company h3 {
+  margin-bottom: 20px;
+}
+
+.foter-right {
+  flex: 3;
+}
+
+ul.row {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+.footer-right>div {
+  display: flex;
+  gap: 20px;
+  float: right;
+}
+
+.footer-right ul li a {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.footer-scroll {
+  position: absolute;
+  right: 10%;
+  bottom: 20%;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+
+.scroll-btn {
+  height: 50px;
+}
+
+.scroll-btn a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: #ddd;
+  text-align: center;
+  line-height: 50px;
+  font-size: 1.5em;
+  border-radius: 50%;
+  transition: all .35s;
+}
+
+.scroll-btn:hover a {
+  box-shadow: 0 3px 10px rgba(39, 39, 39, 0.473);
+}
+
+.footer-phone,
+.footer-logo {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 40px;
+}

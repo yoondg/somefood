@@ -1,0 +1,246 @@
+[
+  {
+    "id": "1",
+    "name": "1+1 기획 그래놀라 세트",
+    "category": "간식",
+    "price": 5000,
+    "description": "오트밀과 꿀이 만난 최고의 조합",
+    "imageUrl": "/assets/images/01.jpg",
+    "discountRate": 0,
+    "shipping": "국내배송",
+    "size": [],
+    "colors": []
+  },
+  {
+    "id": "2",
+    "name": "추가상품 구성을 볼수있어요~🍏",
+    "category": "간식",
+    "price": 21000,
+    "description": "오트밀과 꿀이 만난 최고의 조합",
+    "imageUrl": "/assets/images/02.jpg",
+    "isBest": true,
+    "isNew": false,
+    "discountRate": 22,
+    "shipping": "국내배송",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "white",
+      "gray"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "대용량 기본 오트밀",
+    "category": "방석",
+    "price": 10000,
+    "description": "오트밀과 꿀이 만난 최고의 조합오트밀과 꿀이 만난 최고의 조합",
+    "imageUrl": "/assets/images/03.jpg",
+    "isBest": true,
+    "isNew": false,
+    "discountRate": 0,
+    "shipping": "국내배송",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "WHITE",
+      "GRAY"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "딸기 레몬 그래놀라 3종 세트",
+    "category": "방석",
+    "price": 23000,
+    "description": "오트밀과 꿀이 만난 최고의 조합",
+    "imageUrl": "/assets/images/04.jpg",
+    "isBest": true,
+    "isNew": true,
+    "discountRate": 0,
+    "shipping": "국내배송",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "WHITE",
+      "GRAY"
+    ]
+  },
+  {
+    "id": "5",
+    "name": "대용량 레몬 그래놀라",
+    "category": "방석",
+    "price": 10000,
+    "description": "오트밀과 꿀이 만난 최고의 조합",
+    "imageUrl": "/assets/images/05.jpg",
+    "isBest": true,
+    "isNew": true,
+    "discountRate": 29,
+    "shipping": "국내배송",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "WHITE",
+      "GRAY"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "대용량 기본 오트밀 그래놀라",
+    "category": "위생용품",
+    "price": 5000,
+    "description": "오트밀과 꿀이 만난 최고의 조합",
+    "imageUrl": "/assets/images/06.jpg",
+    "isBest": true,
+    "isNew": true,
+    "discountRate": 11,
+    "shipping": "국내배송",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "white",
+      "gray"
+    ]
+  },
+  {
+    "id": "7",
+    "name": "허니 레몬 그래놀라",
+    "category": "위생용품",
+    "price": 25000,
+    "description": "오트밀과 꿀이 만난 최고의 조합",
+    "imageUrl": "/assets/images/07.jpg",
+    "isBest": true,
+    "isNew": true,
+    "discountRate": 12,
+    "shipping": "국내배송",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "white",
+      "gray"
+    ]
+  },
+  {
+    "id": "8",
+    "name": "허니 딸기 그래놀라",
+    "category": "위생용품",
+    "price": 22000,
+    "description": "오트밀과 꿀이 만난 최고의 조합",
+    "imageUrl": "/assets/images/08.jpg",
+    "isBest": true,
+    "isNew": true,
+    "discountRate": 12,
+    "shipping": "국내배송",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "white",
+      "gray"
+    ]
+  },
+  {
+    "id": "9",
+    "name": "세트상품 구성을 볼수있어요~🍎",
+    "category": "위생용품",
+    "price": 25000,
+    "description": "오트밀과 꿀이 만난 최고의 조합",
+    "imageUrl": "/assets/images/09.jpg",
+    "isBest": true,
+    "isNew": true,
+    "discountRate": 12,
+    "shipping": "국내배송",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "white",
+      "gray"
+    ]
+  },
+  {
+    "id": "10",
+    "name": "딸기 레몬 그래놀라",
+    "category": "위생용품",
+    "price": 25000,
+    "description": "오트밀과 꿀이 만난 최고의 조합",
+    "imageUrl": "/assets/images/10.jpg",
+    "isBest": true,
+    "isNew": true,
+    "discountRate": 12,
+    "shipping": "국내배송",
+    "size": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "YELLOW",
+      "BROWN"
+    ]
+  },
+  {
+    "id": "11",
+    "name": "허니 레몬 그래놀라",
+    "category": "위생용품",
+    "price": 12000,
+    "description": "오트밀과 꿀이 만난 최고의 조합",
+    "imageUrl": "/assets/images/11.jpg",
+    "isBest": true,
+    "isNew": true,
+    "discountRate": 25,
+    "shipping": "국내배송",
+    "size": [],
+    "colors": []
+  },
+  {
+    "id": "12",
+    "name": "대용량 기본 오트밀",
+    "category": "위생용품",
+    "price": 18500,
+    "description": "오트밀과 꿀이 만난 최고의 조합",
+    "imageUrl": "/assets/images/07.jpg",
+    "isBest": true,
+    "isNew": true,
+    "discountRate": 8,
+    "shipping": "국내배송",
+    "size": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "YELLOW",
+      "BROWN"
+    ]
+  }
+]

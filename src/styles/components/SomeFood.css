@@ -1,0 +1,77 @@
+.somefood-inner {
+  display: flex;
+}
+
+.somefood-left {
+  width: 40%;
+}
+
+.somefood-left h1 {
+  font-family: 'Gmarket Sans';
+  letter-spacing: 6px;
+  font-weight: 300;
+  color: #888;
+}
+
+.somefood-title {
+  font-family: 'Gmarket Sans';
+  font-size: 45px;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.somefood-desc {
+  font-size: 15px;
+  color: #999;
+  font-weight: 500;
+}
+
+.somefood-right {
+  width: 60%;
+  display: flex;
+  text-align: center;
+
+}
+
+.somefood-right ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.banner-item {
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-item-img {
+  width: 100%;
+  overflow: hidden;
+  transition: 0.35s;
+
+}
+
+.banner-item-img img {
+  scale: .8;
+
+}
+
+.banner-item-img:hover img {
+  scale: 1;
+}
+
+.banner-item img {
+  border-radius: 100%;
+  width: 80%;
+
+
+}
+
+
+.banner-item {}
+
+.banner-title {
+  align-items: center;
+}

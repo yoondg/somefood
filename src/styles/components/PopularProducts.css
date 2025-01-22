@@ -1,0 +1,10 @@
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.product-list>* {
+  flex: 1 1 calc(25% - 16px);
+  box-sizing: border-box;
+}

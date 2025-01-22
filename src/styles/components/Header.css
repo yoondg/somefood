@@ -1,0 +1,83 @@
+.header {
+  position: relative;
+  z-index: 9999;
+  border-bottom: 1px solid #b9b9b9;
+
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+.header-logo a {
+  margin-left: 50px;
+  font-family: 'Gmarket Sans';
+  font-weight: bold;
+  font-size: 24px;
+}
+
+nav .main-menu {
+  display: flex;
+}
+
+nav .main-menu>li {
+  position: relative;
+}
+
+nav .main-menu>li>a {
+  display: inline-block;
+  padding: 5px 20px;
+  font-weight: bold;
+}
+
+nav .main-menu li .sub-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 120px;
+  color: #9FA19F;
+  border: 1px solid #9FA19F;
+  display: none;
+  background: #fff;
+}
+
+nav .main-menu>li:hover .sub-menu {
+  display: block;
+}
+
+/* 서브 보여주기 */
+nav .main-menu .sub-menu>li {
+  display: block;
+}
+
+nav .main-menu .sub-menu>li>a {
+  font-size: 14px;
+  padding: 5px;
+  padding-left: 15px;
+  display: block;
+
+}
+
+nav .main-menu .sub-menu>li:hover>a {
+  color: #000;
+
+}
+
+.desktop-icons {
+  display: flex;
+  gap: 15px;
+  font-size: 24px;
+}
+
+.popup {
+  font-size: 14px;
+  padding: 10px 0;
+  background-color: #FFA00A;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}

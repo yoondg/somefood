@@ -1,0 +1,19 @@
+.real-review {
+  width: 100%;
+  padding: 20px;
+  background-color: #f9f9f9 !important;
+}
+
+
+
+.review-wrap {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.review-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}

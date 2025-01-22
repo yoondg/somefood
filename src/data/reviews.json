@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "image": "/assets/images/01.jpg",
+    "thumbnail": "/assets/images/01.jpg",
+    "name": "딸기 레몬 그래놀라",
+    "rating": "/assets/images/icon_star.gif",
+    "title": "안 떨어지게 늘 쟁여놓고 있어요!",
+    "review": "벌써 세 번째 구매네요. 담백하고 건강한 맛이라 질리지 않고 늘 잘 먹고 있어요 :)",
+    "username": "SOME****",
+    "date": "2023-01-19 15:07:07"
+  },
+  {
+    "id": "2",
+    "image": "/assets/images/02.jpg",
+    "thumbnail": "/assets/images/01.jpg",
+    "name": "1+1 기획 그래놀라 세트",
+    "rating": "/assets/images/icon_star.gif",
+    "title": "저보다 아이들이 더 좋아해요👍",
+    "review": "학교 끝나고 간식용으로 챙겨주고 있는데 너무 좋아하네요~",
+    "username": "SOME****",
+    "date": "2023-01-19 15:07:07"
+  },
+  {
+    "id": "3",
+    "image": "/assets/images/03.jpg",
+    "thumbnail": "/assets/images/01.jpg",
+    "name": "1+1 기획 그래놀라 세트",
+    "rating": "/assets/images/icon_star.gif",
+    "title": "저보다 아이들이 더 좋아해요👍",
+    "review": "학교 끝나고 간식용으로 챙겨주고 있는데 너무 좋아하네요~",
+    "username": "SOME****",
+    "date": "2023-01-19 15:07:07"
+  },
+  {
+    "id": "4",
+    "image": "/assets/images/04.jpg",
+    "thumbnail": "/assets/images/01.jpg",
+    "name": "그래놀라 3종 세트",
+    "rating": "/assets/images/icon_star.gif",
+    "title": "고소하고 맛있어요",
+    "review": "애들 간식용으로 한박스 구매했는데 담백하고 좋네요😊",
+    "username": "SOME****",
+    "date": "2023-01-19 15:07:07"
+  },
+  {
+    "id": "5",
+    "image": "/assets/images/05.jpg",
+    "thumbnail": "/assets/images/01.jpg",
+    "name": "그래놀라 3종 세트",
+    "rating": "/assets/images/icon_star.gif",
+    "title": "배송 진짜 빠르게 왔어요",
+    "review": "급하게 주문한건데 하루만에 바로 와서 잘 받았어요!",
+    "username": "SOME****",
+    "date": "2023-01-19 15:07:07"
+  },
+  {
+    "id": "6",
+    "image": "/assets/images/06.jpg",
+    "thumbnail": "/assets/images/01.jpg",
+    "name": "허니 딸기 그래놀라",
+    "rating": "/assets/images/icon_star.gif",
+    "title": "집들이 선물용으로 좋아요",
+    "review": "맛도 좋고 디자인도 예뻐서 선물용으로 딱이네요 :)",
+    "username": "SOME****",
+    "date": "2023-01-19 15:07:07"
+  }
+]

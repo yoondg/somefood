@@ -1,0 +1,169 @@
+.detail-page {
+  /* display: flex; */
+  padding: 20px;
+}
+
+.product-wrap {
+  display: flex;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.product-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* 이미지가 영역을 벗어나지 않도록 */
+}
+
+.product-image img {
+  /* width: 100%; */
+  /* 너비를 100%로 설정 */
+  /* height: auto; */
+  /* 높이를 자동으로 조정하여 비율 유지 */
+  border-radius: 8px;
+  /* 이미지가 잘리지 않고 꽉 차도록 */
+}
+
+.product-info {
+  margin-left: 40px;
+  flex: 1;
+}
+
+.product-name {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.product-prices {
+  margin-bottom: 30px;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #999;
+  margin-right: 15px;
+  /* font-size: 24px; */
+}
+
+.discounted-price {
+  /* font-size: 28px; */
+  color: #333;
+  font-weight: bold;
+}
+
+.product-description {
+  margin-bottom: 30px;
+  color: #666;
+  font-size: 18px;
+}
+
+.delivery-info {
+  margin-bottom: 30px;
+  color: #666;
+  font-size: 18px;
+}
+
+.total-price {
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 20px;
+}
+
+.total-price p {
+  margin: 10px 0;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.add-to-cart,
+.wish,
+.buy-now {
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+.add-to-cart {
+  background-color: #f0c14b;
+}
+
+.wish {
+  background-color: #e7e7e7;
+}
+
+.buy-now {
+  background-color: #ffa41c;
+}
+
+.mySwiper {}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 50px;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.swiper-pagination-bullet-active {
+  background: transparent;
+}
+
+
+.product-tabs {
+  margin-top: 40px;
+}
+
+.tab-list {
+  display: flex;
+  gap: 10px;
+  border-bottom: 2px solid #ddd;
+  /* 전체 탭 아래에 기본 선 추가 */
+}
+
+.tab-list li {
+  cursor: pointer;
+  padding: 10px 20px;
+  position: relative;
+  /* 선 위치를 잡기 위해 position 사용 */
+  color: #333;
+}
+
+.tab-list li.active {
+  font-weight: bold;
+  color: black;
+  /* 활성화된 탭 글자색 */
+}
+
+.tab-list li.active::after {
+  content: "";
+  /* 선을 추가하기 위한 가상 요소 */
+  position: absolute;
+  bottom: -2px;
+  /* 텍스트 아래에 선 추가 */
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  /* 선의 색상 */
+}
+
+.tab-content {
+  padding: 20px 0;
+  font-size: 14px;
+  color: #666;
+}

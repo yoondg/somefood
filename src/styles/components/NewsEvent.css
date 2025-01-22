@@ -1,0 +1,91 @@
+.newsevent {
+  margin-top: 150px;
+}
+
+.newsevent-inner {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  overflow: hidden;
+
+}
+
+.news {
+  flex: 2;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  padding: 40px;
+  /* .news의 너비 비율 */
+}
+
+.news-title .title {
+  display: inline-block;
+  border: 2px solid #000;
+  font-weight: bold;
+  border-radius: 50px;
+  padding: 8px 20px;
+  font-size: 16px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.news-title .title::after {
+  position: absolute;
+  content: 'N';
+  top: 25%;
+  left: 7%;
+  border: 1px solid #000;
+  border-radius: 50px;
+  width: 22px;
+  height: 22px;
+  line-height: 20px;
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-more {
+  float: right;
+}
+
+.evnet {
+  width: 900px;
+  height: 712px;
+  /* .event의 너비 비율 */
+}
+
+.news-date {
+  line-height: 40px;
+  margin-bottom: 50px;
+}
+
+.news-date em {
+  font-style: normal;
+  float: right;
+}
+
+.news-img-box img {}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  /* text-align: center; */
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
