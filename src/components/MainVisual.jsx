@@ -9,7 +9,7 @@ import 'swiper/css/pagination';
 import '../styles/components/MainVisual.css';
 
 // import required modules
-import { Navigation, Pagination, Autoplay, Loop } from 'swiper/modules';
+import { Navigation, Pagination } from 'swiper/modules';
 
 const MainVisual = () => {
   const images = [
@@ -39,7 +39,7 @@ const MainVisual = () => {
     <div className='mainvisual'>
       <Swiper
         loop={true}
-        autoplay={{
+        Autoplay={{
           delay: 1000,
           disableOnInteraction: true,
         }}

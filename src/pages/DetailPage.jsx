@@ -101,7 +101,7 @@ const DetailPage = () => {
           </li>
         </ul>
         <div className="tab-content">
-          {activeTab === 'info' && <img src="../assets/images/productdetail.jpg" />}
+          {activeTab === 'info' && <img src="../assets/images/productdetail.jpg" alt="productdetail" />}
           {activeTab === 'reviews' && <p>아직 작성된 상품후기가 없습니다.</p>}
           {activeTab === 'qa' && <p>아직 작성된 Q&A가 없습니다.</p>}
         </div>

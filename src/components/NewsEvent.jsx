@@ -6,7 +6,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 // import required modules
-import { Navigation, Pagination, Autoplay, Loop } from 'swiper/modules';
+import { Navigation, Pagination } from 'swiper/modules';
 
 const NewsEvent = () => {
   const images = [

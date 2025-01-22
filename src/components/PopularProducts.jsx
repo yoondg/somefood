@@ -5,8 +5,6 @@ import products from '../data/products.json';
 import '../styles/components/PopularProducts.css'
 
 const PopularProducts = ({ addToCart }) => {
-  const itemsPerRow = 4;//한줄에 표시할 상품 수
-  const [isHovered, setIsHovered] = useState(false);
   const popularProducts = products;
   console.log(popularProducts);
   return (
